@@ -1,7 +1,7 @@
 // Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
-// Date        : Sun Dec 25 00:08:55 2016
+// Date        : Mon Dec 26 00:12:00 2016
 // Host        : LAPTOP-LAS5OT6M running 64-bit major release  (build 9200)
 // Command     : write_verilog -force -mode synth_stub
 //               C:/Users/MatsudaKazuaki/Documents/GitHub/ov7670_zybo/ov7670_zybo.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_stub.v
