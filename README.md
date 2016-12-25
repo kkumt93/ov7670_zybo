@@ -1,4 +1,3 @@
-# ov7670_zybo
 
 # ov7670_zybo
 ov7670 sample project
