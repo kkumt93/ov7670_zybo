@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Sun Dec 25 23:23:27 2016">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="3480008993bf443ca9fd9b840f36ae3d" type="ProjectID"/>
+<property name="ProjectIteration" value="286" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="AddCfgMem" value="2" type="JavaHandler"/>
+<property name="AddSources" value="19" type="JavaHandler"/>
+<property name="AutoConnectTarget" value="90" type="JavaHandler"/>
+<property name="CoreView" value="3" type="JavaHandler"/>
+<property name="CreateBlockDesign" value="2" type="JavaHandler"/>
+<property name="CreateHardwareDashboards" value="2" type="JavaHandler"/>
+<property name="CustomizeCore" value="5" type="JavaHandler"/>
+<property name="DebugWizardCmdHandler" value="5" type="JavaHandler"/>
+<property name="EditDelete" value="13" type="JavaHandler"/>
+<property name="EditPaste" value="1" type="JavaHandler"/>
+<property name="EditProperties" value="1" type="JavaHandler"/>
+<property name="EditUndo" value="18" type="JavaHandler"/>
+<property name="FlipToViewTaskImplementation" value="2" type="JavaHandler"/>
+<property name="FlipToViewTaskRTLAnalysis" value="3" type="JavaHandler"/>
+<property name="FlipToViewTaskSynthesis" value="2" type="JavaHandler"/>
+<property name="LaunchOpenTarget" value="12" type="JavaHandler"/>
+<property name="LaunchProgramFpga" value="198" type="JavaHandler"/>
+<property name="MakePartCompatible" value="1" type="JavaHandler"/>
+<property name="NewFile" value="3" type="JavaHandler"/>
+<property name="NewProject" value="2" type="JavaHandler"/>
+<property name="OpenHardwareManager" value="81" type="JavaHandler"/>
+<property name="OpenProject" value="2" type="JavaHandler"/>
+<property name="OpenRecentTarget" value="28" type="JavaHandler"/>
+<property name="ProgramDevice" value="7" type="JavaHandler"/>
+<property name="ProjectSettingsCmdHandler" value="30" type="JavaHandler"/>
+<property name="RecustomizeCore" value="14" type="JavaHandler"/>
+<property name="RefreshDevice" value="10" type="JavaHandler"/>
+<property name="RunBitgen" value="143" type="JavaHandler"/>
+<property name="RunDesignAhead" value="1" type="JavaHandler"/>
+<property name="RunImplementation" value="144" type="JavaHandler"/>
+<property name="RunSchematic" value="28" type="JavaHandler"/>
+<property name="RunSynthesis" value="177" type="JavaHandler"/>
+<property name="SaveDesign" value="3" type="JavaHandler"/>
+<property name="SaveProjectAs" value="1" type="JavaHandler"/>
+<property name="ShowSource" value="6" type="JavaHandler"/>
+<property name="ShowView" value="39" type="JavaHandler"/>
+<property name="SimulationBreak" value="25" type="JavaHandler"/>
+<property name="SimulationClose" value="43" type="JavaHandler"/>
+<property name="SimulationRestart" value="64" type="JavaHandler"/>
+<property name="SimulationRun" value="96" type="JavaHandler"/>
+<property name="SimulationRunAll" value="91" type="JavaHandler"/>
+<property name="ToolsOptions" value="1" type="JavaHandler"/>
+<property name="ViewLayoutCmd" value="1" type="JavaHandler"/>
+<property name="ViewTaskImplementation" value="12" type="JavaHandler"/>
+<property name="ViewTaskProgramandDebug" value="7" type="JavaHandler"/>
+<property name="ViewTaskProjectManager" value="53" type="JavaHandler"/>
+<property name="ViewTaskRTLAnalysis" value="12" type="JavaHandler"/>
+<property name="ViewTaskSimulation" value="4" type="JavaHandler"/>
+<property name="ViewTaskSynthesis" value="6" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, top (top.v" value="6" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="18" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="14" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>

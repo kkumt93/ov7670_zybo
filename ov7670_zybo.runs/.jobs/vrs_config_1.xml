@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="clk_wiz_0_synth_1" LaunchDir="C:/Users/MatsudaKazuaki/Documents/GitHub/ov7670_zybo/ov7670_zybo.runs/clk_wiz_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="blk_mem_gen_0_synth_1" LaunchDir="C:/Users/MatsudaKazuaki/Documents/GitHub/ov7670_zybo/ov7670_zybo.runs/blk_mem_gen_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="C:/Users/MatsudaKazuaki/Documents/GitHub/ov7670_zybo/ov7670_zybo.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="clk_wiz_0_synth_1"/>
+		<Parent Id="blk_mem_gen_0_synth_1"/>
+	</Run>
+</Runs>
+

@@ -1,0 +1,553 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Wed Dec 07 03:15:22 2016
+# Process ID: 8408
+# Current directory: C:/Users/Kazuaki/Desktop/ov7670/ov7670.runs/synth_2
+# Command line: vivado.exe -log VideoProc.vds -mode batch -messageDb vivado.pb -notrace -source VideoProc.tcl
+# Log file: C:/Users/Kazuaki/Desktop/ov7670/ov7670.runs/synth_2/VideoProc.vds
+# Journal file: C:/Users/Kazuaki/Desktop/ov7670/ov7670.runs/synth_2\vivado.jou
+#-----------------------------------------------------------
+source VideoProc.tcl -notrace
+Command: synth_design -top VideoProc -part xc7z010clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 10532 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 274.477 ; gain = 67.098
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'VideoProc' [C:/Users/Kazuaki/Desktop/ov7670/ov7670.srcs/sources_1/new/VideoProc.v:1]
+INFO: [Synth 8-638] synthesizing module 'clk_wiz_0' [C:/Users/Kazuaki/Desktop/ov7670/ov7670.runs/synth_2/.Xil/Vivado-8408-DESKTOP-3K0NRIA/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-256] done synthesizing module 'clk_wiz_0' (1#1) [C:/Users/Kazuaki/Desktop/ov7670/ov7670.runs/synth_2/.Xil/Vivado-8408-DESKTOP-3K0NRIA/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-638] synthesizing module 'VideoProcCore' [C:/Users/Kazuaki/Desktop/ov7670/ov7670.srcs/sources_1/new/VideoProcCore.v:1]
+INFO: [Synth 8-638] synthesizing module 'LINEIN_CTRL' [C:/Users/Kazuaki/Desktop/ov7670/ov7670.srcs/sources_1/new/LINEIN_CTRL.v:1]
+INFO: [Synth 8-638] synthesizing module 'SRAM' [C:/Users/Kazuaki/Desktop/ov7670/ov7670.srcs/sources_1/new/SRAM.v:1]
+INFO: [Synth 8-256] done synthesizing module 'SRAM' (2#1) [C:/Users/Kazuaki/Desktop/ov7670/ov7670.srcs/sources_1/new/SRAM.v:1]
+INFO: [Synth 8-256] done synthesizing module 'LINEIN_CTRL' (3#1) [C:/Users/Kazuaki/Desktop/ov7670/ov7670.srcs/sources_1/new/LINEIN_CTRL.v:1]
+INFO: [Synth 8-638] synthesizing module 'CAM_CTRL' [C:/Users/Kazuaki/Desktop/ov7670/ov7670.srcs/sources_1/new/CAM_CTRL.v:1]
+INFO: [Synth 8-256] done synthesizing module 'CAM_CTRL' (4#1) [C:/Users/Kazuaki/Desktop/ov7670/ov7670.srcs/sources_1/new/CAM_CTRL.v:1]
+INFO: [Synth 8-638] synthesizing module 'VGA_CTRL' [C:/Users/Kazuaki/Desktop/ov7670/ov7670.srcs/sources_1/new/VGA_CTRL.v:1]
+INFO: [Synth 8-256] done synthesizing module 'VGA_CTRL' (5#1) [C:/Users/Kazuaki/Desktop/ov7670/ov7670.srcs/sources_1/new/VGA_CTRL.v:1]
+INFO: [Synth 8-256] done synthesizing module 'VideoProcCore' (6#1) [C:/Users/Kazuaki/Desktop/ov7670/ov7670.srcs/sources_1/new/VideoProcCore.v:1]
+INFO: [Synth 8-638] synthesizing module 'sccb_if' [C:/Users/Kazuaki/Desktop/ov7670/ov7670.srcs/sources_1/new/sccb_if.v:2]
+	Parameter IdAddr bound to: 8'b01000010 
+	Parameter Start bound to: 4'b0000 
+	Parameter WaitPowerOn bound to: 4'b0001 
+	Parameter DataSet bound to: 4'b0010 
+	Parameter DataSend bound to: 4'b0011 
+	Parameter AddrAdd bound to: 4'b0100 
+	Parameter Wait bound to: 4'b0101 
+	Parameter End bound to: 4'b0110 
+	Parameter TimerOn bound to: 1'b1 
+	Parameter TimerOff bound to: 1'b0 
+INFO: [Synth 8-638] synthesizing module 'sccb_rom' [C:/Users/Kazuaki/Desktop/ov7670/ov7670.srcs/sources_1/new/sccb_rom.v:2]
+INFO: [Synth 8-256] done synthesizing module 'sccb_rom' (7#1) [C:/Users/Kazuaki/Desktop/ov7670/ov7670.srcs/sources_1/new/sccb_rom.v:2]
+INFO: [Synth 8-256] done synthesizing module 'sccb_if' (8#1) [C:/Users/Kazuaki/Desktop/ov7670/ov7670.srcs/sources_1/new/sccb_if.v:2]
+INFO: [Synth 8-256] done synthesizing module 'VideoProc' (9#1) [C:/Users/Kazuaki/Desktop/ov7670/ov7670.srcs/sources_1/new/VideoProc.v:1]
+WARNING: [Synth 8-3331] design LINEIN_CTRL has unconnected port VgaLineCount[8]
+WARNING: [Synth 8-3331] design LINEIN_CTRL has unconnected port VgaLineCount[7]
+WARNING: [Synth 8-3331] design LINEIN_CTRL has unconnected port VgaLineCount[6]
+WARNING: [Synth 8-3331] design LINEIN_CTRL has unconnected port VgaLineCount[5]
+WARNING: [Synth 8-3331] design LINEIN_CTRL has unconnected port VgaLineCount[4]
+WARNING: [Synth 8-3331] design LINEIN_CTRL has unconnected port VgaLineCount[3]
+WARNING: [Synth 8-3331] design LINEIN_CTRL has unconnected port VgaLineCount[2]
+WARNING: [Synth 8-3331] design LINEIN_CTRL has unconnected port VgaLineCount[0]
+WARNING: [Synth 8-3331] design VideoProc has unconnected port SCL_IN
+WARNING: [Synth 8-3331] design VideoProc has unconnected port SDA_IN
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 311.797 ; gain = 104.418
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 311.797 ; gain = 104.418
+---------------------------------------------------------------------------------
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'clk_wiz_0' instantiated as 'clk_wiz__inst1' [C:/Users/Kazuaki/Desktop/ov7670/ov7670.srcs/sources_1/new/VideoProc.v:52]
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Kazuaki/Desktop/ov7670/ov7670.runs/synth_2/.Xil/Vivado-8408-DESKTOP-3K0NRIA/dcp/clk_wiz_0_in_context.xdc] for cell 'clk_wiz__inst1'
+Finished Parsing XDC File [C:/Users/Kazuaki/Desktop/ov7670/ov7670.runs/synth_2/.Xil/Vivado-8408-DESKTOP-3K0NRIA/dcp/clk_wiz_0_in_context.xdc] for cell 'clk_wiz__inst1'
+Parsing XDC File [C:/Users/Kazuaki/Desktop/ov7670/ov7670.srcs/constrs_1/new/pin.xdc]
+WARNING: [Vivado 12-584] No ports matched 'VgaDataR[6]'. [C:/Users/Kazuaki/Desktop/ov7670/ov7670.srcs/constrs_1/new/pin.xdc:24]
+WARNING: [Vivado 12-584] No ports matched 'VgaDataG[6]'. [C:/Users/Kazuaki/Desktop/ov7670/ov7670.srcs/constrs_1/new/pin.xdc:29]
+WARNING: [Vivado 12-584] No ports matched 'VgaDataR[5]'. [C:/Users/Kazuaki/Desktop/ov7670/ov7670.srcs/constrs_1/new/pin.xdc:31]
+WARNING: [Vivado 12-584] No ports matched 'VgaDataB[5]'. [C:/Users/Kazuaki/Desktop/ov7670/ov7670.srcs/constrs_1/new/pin.xdc:37]
+WARNING: [Vivado 12-507] No nets matched 'PCLK_IBUF'. [C:/Users/Kazuaki/Desktop/ov7670/ov7670.srcs/constrs_1/new/pin.xdc:75]
+Finished Parsing XDC File [C:/Users/Kazuaki/Desktop/ov7670/ov7670.srcs/constrs_1/new/pin.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [C:/Users/Kazuaki/Desktop/ov7670/ov7670.srcs/constrs_1/new/pin.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/VideoProc_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Kazuaki/Desktop/ov7670/ov7670.srcs/constrs_1/new/pin.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/VideoProc_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/VideoProc_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 610.984 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 610.984 ; gain = 403.605
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 610.984 ; gain = 403.605
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for CLK_125. (constraint file  C:/Users/Kazuaki/Desktop/ov7670/ov7670.runs/synth_2/.Xil/Vivado-8408-DESKTOP-3K0NRIA/dcp/clk_wiz_0_in_context.xdc, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for CLK_125. (constraint file  C:/Users/Kazuaki/Desktop/ov7670/ov7670.runs/synth_2/.Xil/Vivado-8408-DESKTOP-3K0NRIA/dcp/clk_wiz_0_in_context.xdc, line 4).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 610.984 ; gain = 403.605
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "VgaHsync_edge" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'sccb_if'
+INFO: [Synth 8-5546] ROM "state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "timer" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "timer" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "timer" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "timer" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "timer" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "state" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                              001 |                             0000
+                 iSTATE0 |                              010 |                             0001
+                 iSTATE1 |                              000 |                             0010
+                 iSTATE2 |                              011 |                             0011
+                 iSTATE3 |                              100 |                             0100
+                 iSTATE4 |                              101 |                             0110
+                 iSTATE5 |                              110 |                             0101
+*
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'sccb_if'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 610.984 ; gain = 403.605
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 3     
+	   2 Input      9 Bit       Adders := 2     
+	   2 Input      8 Bit       Adders := 2     
++---Registers : 
+	               30 Bit    Registers := 1     
+	               16 Bit    Registers := 4     
+	               11 Bit    Registers := 1     
+	               10 Bit    Registers := 5     
+	                9 Bit    Registers := 2     
+	                8 Bit    Registers := 4     
+	                1 Bit    Registers := 14    
++---RAMs : 
+	              16K Bit         RAMs := 2     
++---ROMs : 
+	                              ROMs := 1     
++---Muxes : 
+	   2 Input     30 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 1     
+	   2 Input      9 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 6     
+	   7 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 18    
+	   7 Input      1 Bit        Muxes := 1     
+	   6 Input      1 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module SRAM 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
++---RAMs : 
+	              16K Bit         RAMs := 1     
+Module LINEIN_CTRL 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
+	               10 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module CAM_CTRL 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input      9 Bit       Adders := 1     
++---Registers : 
+	               11 Bit    Registers := 1     
+	               10 Bit    Registers := 2     
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input      9 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module VGA_CTRL 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 1     
+	   2 Input      9 Bit       Adders := 1     
++---Registers : 
+	               10 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   2 Input     10 Bit        Muxes := 1     
+	   2 Input      9 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 2     
+Module VideoProcCore 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 3     
+Module sccb_rom 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module sccb_if 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 2     
++---Registers : 
+	               30 Bit    Registers := 1     
+	               10 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     30 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 3     
+	   7 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 13    
+	   7 Input      1 Bit        Muxes := 1     
+	   6 Input      1 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 610.984 ; gain = 403.605
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "timer" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "timer" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "timer" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "timer" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-3331] design VideoProc has unconnected port SCL_IN
+WARNING: [Synth 8-3331] design VideoProc has unconnected port SDA_IN
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 610.984 ; gain = 403.605
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 610.984 ; gain = 403.605
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++------------+--------------------+---------------+----------------+
+|Module Name | RTL Object         | Depth x Width | Implemented As | 
++------------+--------------------+---------------+----------------+
+|sccb_rom    | data_reg           | 256x16        | Block RAM      | 
+|sccb_if     | sccb_rom_inst/data | 256x16        | LUT            | 
++------------+--------------------+---------------+----------------+
+
+
+Block RAM: Preliminary Mapping  Report (see note below)
++------------+-------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name | RTL Object  | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++------------+-------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|SRAM        | RAMDATA_reg | 1 K x 16(READ_FIRST)   | W |   | 1 K x 16(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|SRAM        | RAMDATA_reg | 1 K x 16(READ_FIRST)   | W |   | 1 K x 16(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
++------------+-------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+Note: The table above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (sccb_if_inst/\shift_reg_reg[0] )
+WARNING: [Synth 8-3332] Sequential element (div_clk_reg[9]) is unused and will be removed from module sccb_if.
+WARNING: [Synth 8-3332] Sequential element (rom_addr_reg_rep[7]) is unused and will be removed from module sccb_if.
+WARNING: [Synth 8-3332] Sequential element (rom_addr_reg_rep[6]) is unused and will be removed from module sccb_if.
+WARNING: [Synth 8-3332] Sequential element (rom_addr_reg_rep[5]) is unused and will be removed from module sccb_if.
+WARNING: [Synth 8-3332] Sequential element (rom_addr_reg_rep[4]) is unused and will be removed from module sccb_if.
+WARNING: [Synth 8-3332] Sequential element (rom_addr_reg_rep[3]) is unused and will be removed from module sccb_if.
+WARNING: [Synth 8-3332] Sequential element (rom_addr_reg_rep[2]) is unused and will be removed from module sccb_if.
+WARNING: [Synth 8-3332] Sequential element (rom_addr_reg_rep[1]) is unused and will be removed from module sccb_if.
+WARNING: [Synth 8-3332] Sequential element (rom_addr_reg_rep[0]) is unused and will be removed from module sccb_if.
+WARNING: [Synth 8-3332] Sequential element (sccb_rom_inst/data_reg[15]) is unused and will be removed from module sccb_if.
+WARNING: [Synth 8-3332] Sequential element (sccb_rom_inst/data_reg[14]) is unused and will be removed from module sccb_if.
+WARNING: [Synth 8-3332] Sequential element (sccb_rom_inst/data_reg[13]) is unused and will be removed from module sccb_if.
+WARNING: [Synth 8-3332] Sequential element (sccb_rom_inst/data_reg[12]) is unused and will be removed from module sccb_if.
+WARNING: [Synth 8-3332] Sequential element (sccb_rom_inst/data_reg[11]) is unused and will be removed from module sccb_if.
+WARNING: [Synth 8-3332] Sequential element (sccb_rom_inst/data_reg[10]) is unused and will be removed from module sccb_if.
+WARNING: [Synth 8-3332] Sequential element (sccb_rom_inst/data_reg[9]) is unused and will be removed from module sccb_if.
+WARNING: [Synth 8-3332] Sequential element (sccb_rom_inst/data_reg[8]) is unused and will be removed from module sccb_if.
+WARNING: [Synth 8-3332] Sequential element (sccb_rom_inst/data_reg[7]) is unused and will be removed from module sccb_if.
+WARNING: [Synth 8-3332] Sequential element (sccb_rom_inst/data_reg[6]) is unused and will be removed from module sccb_if.
+WARNING: [Synth 8-3332] Sequential element (sccb_rom_inst/data_reg[5]) is unused and will be removed from module sccb_if.
+WARNING: [Synth 8-3332] Sequential element (sccb_rom_inst/data_reg[4]) is unused and will be removed from module sccb_if.
+WARNING: [Synth 8-3332] Sequential element (sccb_rom_inst/data_reg[3]) is unused and will be removed from module sccb_if.
+WARNING: [Synth 8-3332] Sequential element (sccb_rom_inst/data_reg[2]) is unused and will be removed from module sccb_if.
+WARNING: [Synth 8-3332] Sequential element (sccb_rom_inst/data_reg[1]) is unused and will be removed from module sccb_if.
+WARNING: [Synth 8-3332] Sequential element (sccb_rom_inst/data_reg[0]) is unused and will be removed from module sccb_if.
+WARNING: [Synth 8-3332] Sequential element (shift_reg_reg[29]) is unused and will be removed from module sccb_if.
+WARNING: [Synth 8-3332] Sequential element (shift_reg_reg[28]) is unused and will be removed from module sccb_if.
+WARNING: [Synth 8-3332] Sequential element (shift_reg_reg[27]) is unused and will be removed from module sccb_if.
+WARNING: [Synth 8-3332] Sequential element (shift_reg_reg[26]) is unused and will be removed from module sccb_if.
+WARNING: [Synth 8-3332] Sequential element (shift_reg_reg[25]) is unused and will be removed from module sccb_if.
+WARNING: [Synth 8-3332] Sequential element (shift_reg_reg[24]) is unused and will be removed from module sccb_if.
+WARNING: [Synth 8-3332] Sequential element (shift_reg_reg[23]) is unused and will be removed from module sccb_if.
+WARNING: [Synth 8-3332] Sequential element (shift_reg_reg[22]) is unused and will be removed from module sccb_if.
+WARNING: [Synth 8-3332] Sequential element (shift_reg_reg[21]) is unused and will be removed from module sccb_if.
+WARNING: [Synth 8-3332] Sequential element (shift_reg_reg[20]) is unused and will be removed from module sccb_if.
+WARNING: [Synth 8-3332] Sequential element (shift_reg_reg[19]) is unused and will be removed from module sccb_if.
+WARNING: [Synth 8-3332] Sequential element (shift_reg_reg[18]) is unused and will be removed from module sccb_if.
+WARNING: [Synth 8-3332] Sequential element (shift_reg_reg[17]) is unused and will be removed from module sccb_if.
+WARNING: [Synth 8-3332] Sequential element (shift_reg_reg[16]) is unused and will be removed from module sccb_if.
+WARNING: [Synth 8-3332] Sequential element (shift_reg_reg[15]) is unused and will be removed from module sccb_if.
+WARNING: [Synth 8-3332] Sequential element (shift_reg_reg[14]) is unused and will be removed from module sccb_if.
+WARNING: [Synth 8-3332] Sequential element (shift_reg_reg[13]) is unused and will be removed from module sccb_if.
+WARNING: [Synth 8-3332] Sequential element (shift_reg_reg[12]) is unused and will be removed from module sccb_if.
+WARNING: [Synth 8-3332] Sequential element (shift_reg_reg[11]) is unused and will be removed from module sccb_if.
+WARNING: [Synth 8-3332] Sequential element (shift_reg_reg[10]) is unused and will be removed from module sccb_if.
+WARNING: [Synth 8-3332] Sequential element (shift_reg_reg[9]) is unused and will be removed from module sccb_if.
+WARNING: [Synth 8-3332] Sequential element (shift_reg_reg[8]) is unused and will be removed from module sccb_if.
+WARNING: [Synth 8-3332] Sequential element (shift_reg_reg[7]) is unused and will be removed from module sccb_if.
+WARNING: [Synth 8-3332] Sequential element (shift_reg_reg[6]) is unused and will be removed from module sccb_if.
+WARNING: [Synth 8-3332] Sequential element (shift_reg_reg[5]) is unused and will be removed from module sccb_if.
+WARNING: [Synth 8-3332] Sequential element (shift_reg_reg[4]) is unused and will be removed from module sccb_if.
+WARNING: [Synth 8-3332] Sequential element (shift_reg_reg[3]) is unused and will be removed from module sccb_if.
+WARNING: [Synth 8-3332] Sequential element (shift_reg_reg[2]) is unused and will be removed from module sccb_if.
+WARNING: [Synth 8-3332] Sequential element (shift_reg_reg[1]) is unused and will be removed from module sccb_if.
+WARNING: [Synth 8-3332] Sequential element (shift_reg_reg[0]) is unused and will be removed from module sccb_if.
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 610.984 ; gain = 403.605
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 610.984 ; gain = 403.605
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5578] Moved timing constraint from pin 'clk_wiz__inst1/clk_out1' to pin 'clk_wiz__inst1/bbstub_clk_out1/O'
+INFO: [Synth 8-5820] Moved 1 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 610.984 ; gain = 403.605
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 610.984 ; gain = 403.605
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4480] The timing for the instance VideoProcCore_inst/LINEIN_CTRL_inst/SRAM_A/RAMDATA_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance VideoProcCore_inst/LINEIN_CTRL_inst/SRAM_B/RAMDATA_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 610.984 ; gain = 403.605
+---------------------------------------------------------------------------------
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 610.984 ; gain = 403.605
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 610.984 ; gain = 403.605
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 610.984 ; gain = 403.605
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 610.984 ; gain = 403.605
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 610.984 ; gain = 403.605
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 610.984 ; gain = 403.605
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 610.984 ; gain = 403.605
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 610.984 ; gain = 403.605
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |clk_wiz_0     |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+----------+------+
+|      |Cell      |Count |
++------+----------+------+
+|1     |clk_wiz_0 |     1|
+|2     |BUFG      |     1|
+|3     |CARRY4    |     4|
+|4     |LUT1      |     7|
+|5     |LUT2      |    28|
+|6     |LUT3      |    33|
+|7     |LUT4      |    24|
+|8     |LUT5      |    42|
+|9     |LUT6      |    48|
+|10    |MUXF7     |     1|
+|11    |RAMB18E1  |     2|
+|12    |FDCE      |   149|
+|13    |FDPE      |     1|
+|14    |IBUF      |    14|
+|15    |OBUF      |    21|
++------+----------+------+
+
+Report Instance Areas: 
++------+---------------------+--------------+------+
+|      |Instance             |Module        |Cells |
++------+---------------------+--------------+------+
+|1     |top                  |              |   376|
+|2     |  sccb_if_inst       |sccb_if       |    82|
+|3     |  VideoProcCore_inst |VideoProcCore |   257|
+|4     |    CAM_CTRL_inst    |CAM_CTRL      |   114|
+|5     |    LINEIN_CTRL_inst |LINEIN_CTRL   |    46|
+|6     |      SRAM_A         |SRAM          |     1|
+|7     |      SRAM_B         |SRAM_0        |     1|
+|8     |    VGA_CTRL_inst    |VGA_CTRL      |    97|
++------+---------------------+--------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 610.984 ; gain = 403.605
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 57 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 610.984 ; gain = 104.418
+Synthesis Optimization Complete : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 610.984 ; gain = 403.605
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 20 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+54 Infos, 74 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 610.984 ; gain = 403.605
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 610.984 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed Dec 07 03:15:46 2016...

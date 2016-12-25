@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Sun Dec 18 11:44:48 2016
+# Process ID: 1452
+# Current directory: C:/Users/Kazuaki/Desktop/ov7670/ov7670.sim/sim_1/behav
+# Command line: wbtcv.exe -mode batch -source C:/Users/Kazuaki/Desktop/ov7670/ov7670.sim/sim_1/behav/xsim.dir/top_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/Kazuaki/Desktop/ov7670/ov7670.sim/sim_1/behav/webtalk.log
+# Journal file: C:/Users/Kazuaki/Desktop/ov7670/ov7670.sim/sim_1/behav\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/Kazuaki/Desktop/ov7670/ov7670.sim/sim_1/behav/xsim.dir/top_tb_behav/webtalk/xsim_webtalk.tcl -notrace

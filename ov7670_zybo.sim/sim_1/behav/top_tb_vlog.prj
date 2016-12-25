@@ -1,0 +1,20 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  "C:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv" --include "../../../ov7670.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+sv xil_defaultlib  "C:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_base.sv" --include "../../../ov7670.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+sv xil_defaultlib  "C:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_dpdistram.sv" --include "../../../ov7670.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+sv xil_defaultlib  "C:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_dprom.sv" --include "../../../ov7670.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+sv xil_defaultlib  "C:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_sdpram.sv" --include "../../../ov7670.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+sv xil_defaultlib  "C:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_spram.sv" --include "../../../ov7670.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+sv xil_defaultlib  "C:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_sprom.sv" --include "../../../ov7670.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+sv xil_defaultlib  "C:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_memory/hdl/xpm_memory_tdpram.sv" --include "../../../ov7670.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+verilog xil_defaultlib  "../../../ov7670.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0_sim_netlist.v" --include "../../../ov7670.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+verilog xil_defaultlib  "../../../ov7670.srcs/sources_1/new/rgb565_ctrl.v" --include "../../../ov7670.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+verilog xil_defaultlib  "../../../ov7670.srcs/sources_1/new/vga_generator.v" --include "../../../ov7670.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+verilog xil_defaultlib  "../../../ov7670.srcs/sources_1/new/camera_controller.v" --include "../../../ov7670.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+verilog xil_defaultlib  "../../../ov7670.srcs/sim_1/new/top.v" --include "../../../ov7670.ip_user_files/ipstatic/clk_wiz_v5_3_1"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

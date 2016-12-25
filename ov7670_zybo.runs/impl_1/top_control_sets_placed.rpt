@@ -1,0 +1,69 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Sat Dec 24 18:18:38 2016
+| Host         : LAPTOP-LAS5OT6M running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file top_control_sets_placed.rpt
+| Design       : top
+| Device       : xc7z010
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    16 |
+| Unused register locations in slices containing registers |    73 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               3 |            3 |
+| No           | No                    | Yes                    |              66 |           37 |
+| No           | Yes                   | No                     |               2 |            2 |
+| Yes          | No                    | No                     |              10 |            4 |
+| Yes          | No                    | Yes                    |             102 |           39 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++--------------------------+--------------------------------------------------------+-----------------------------------------------+------------------+----------------+
+|       Clock Signal       |                      Enable Signal                     |                Set/Reset Signal               | Slice Load Count | Bel Load Count |
++--------------------------+--------------------------------------------------------+-----------------------------------------------+------------------+----------------+
+|  xclk_OBUF_BUFG          |                                                        | camera_controller/vga_generator/hsync_i_1_n_0 |                1 |              1 |
+|  xclk_OBUF_BUFG          |                                                        | camera_controller/vga_generator/vsync_i_1_n_0 |                1 |              1 |
+|  xclk_OBUF_BUFG          |                                                        |                                               |                3 |              3 |
+|  pclk_IBUF_BUFG          | camera_controller/rgb565_ctrl/Q[0]                     | camera_controller/rgb565_ctrl/AS[0]           |                5 |              8 |
+|  pclk_IBUF_BUFG          | camera_controller/rgb565_ctrl/hcnt0[0]                 | camera_controller/rgb565_ctrl/AS[0]           |                4 |              8 |
+|  pclk_IBUF_BUFG          |                                                        | camera_controller/rgb565_ctrl/AS[0]           |                5 |              9 |
+|  xclk_OBUF_BUFG          | camera_controller/vga_generator/vcnt[8]_i_1__0_n_0     | camera_controller/rgb565_ctrl/AS[0]           |                4 |              9 |
+|  clk_wiz_0/inst/clk_out1 |                                                        | camera_controller/rgb565_ctrl/AS[0]           |                4 |              9 |
+|  xclk_OBUF_BUFG          | camera_controller/vga_generator/vactive_cnt[9]_i_1_n_0 | camera_controller/rgb565_ctrl/AS[0]           |                3 |             10 |
+|  clk_wiz_0/inst/clk_out1 | camera_controller/vga_generator/enb                    |                                               |                4 |             10 |
+|  pclk_IBUF_BUFG          | camera_controller/rgb565_ctrl/hcnt[10]_i_1_n_0         | camera_controller/rgb565_ctrl/AS[0]           |                3 |             11 |
+|  pclk_IBUF_BUFG          | camera_controller/rgb565_ctrl/vcnt[10]_i_1_n_0         | camera_controller/rgb565_ctrl/AS[0]           |                3 |             11 |
+|  scl_n                   | sccb_if/rom_addr_1                                     | camera_controller/rgb565_ctrl/AS[0]           |                5 |             16 |
+|  xclk_OBUF_BUFG          |                                                        | camera_controller/rgb565_ctrl/AS[0]           |                7 |             20 |
+|  scl_n                   |                                                        | camera_controller/rgb565_ctrl/AS[0]           |               21 |             28 |
+|  scl_n                   | sccb_if/shift_reg[29]_i_1_n_0                          | camera_controller/rgb565_ctrl/AS[0]           |               12 |             29 |
++--------------------------+--------------------------------------------------------+-----------------------------------------------+------------------+----------------+
+
+
